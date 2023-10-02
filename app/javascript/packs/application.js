@@ -12,7 +12,6 @@ Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
 
-var nickname = "taro"
-console.log(nickname)
-var nickname = "ichiro"
-console.log(nickname)
+let promptStr = prompt('何か好きな文字を入力してください。');
+
+alert(promptStr);
